@@ -1,0 +1,746 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ذهن خلاق</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'> -->
+
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+
+    <!-- jQuery -->
+
+
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+
+<!-- ========================= SECTION CONTENT ========================= -->
+
+<div class="ex-8 bg-dark" style="width: 100%;direction: rtl;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand d-flex" href="#">
+      <img src="images/envato-elite.png" alt="" class="" style="width: 95px;">
+      <h3 class="py-4 m-0">ذهن خلاق</h3>
+    </a>
+    <div class="nav-item header_search_bar text-light ml-auto m-0 d-lg-none"><a class="nav-link" href="#" style="margin-right: auto;">
+      <form id="demo-2">
+        <input type="search" placeholder="Search">
+      </form>
+    </a></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main_nav">
+  
+  <ul class="navbar-nav">
+    <li class="nav-item active"> <a class="nav-link" href="#">صفحه اصلی </a> </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">دوره ها</a>
+        <ul class="dropdown-menu dropdown-menu-left fade-down">
+        <li><a class="dropdown-item" href="farsh.html"> طراحی فرش با فتوشاپ </a></li>
+        <li><a class="dropdown-item" href="#"> فیلم و صدا </a></li>
+        <li><a class="dropdown-item" href="#"> برنامه‌نویسی </a></li>
+        <li><a class="dropdown-item" href="#"> شبکه و امنیت </a></li>
+        <li><a class="dropdown-item" href="#"> زبان‌های خارجی </a></li>
+        <li><a class="dropdown-item" href="#"> سبک زندگی </a></li>
+        <li><a class="dropdown-item" href="#"> زندگی دیجیتال </a></li>
+        <li><a class="dropdown-item" href="#"> طراحی </a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">کتاب اینترنتی</a>
+        <ul class="dropdown-menu dropdown-menu-left fade-down">
+        <li><a class="dropdown-item" href="#"> ریاضیات انتخاب</a></li>
+        <li><a class="dropdown-item" href="#"> جهان هولوگرافیک</a></li>
+        <li><a class="dropdown-item" href="#">چه کسی پنیر مرا جابجا کرد</a></li>
+        </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">آزمون های آنلاین</a>
+        <ul class="dropdown-menu dropdown-menu-left fade-down">
+        <li><a class="dropdown-item" href="#">آزمون دوره ای جاوا اسکریپت</a></li>
+        <li><a class="dropdown-item" href="#"> آزمون زبان تافل</a></li>
+        <li><a class="dropdown-item" href="#">آزمون دوره پیشرفته پایتون</a></li>
+        </ul>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="#">درباره ما</a></li>
+  </ul>
+  
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item header_search_bar text-light d-none d-lg-block"><a class="nav-link" href="#">
+      <form id="demo-2">
+        <input type="search" placeholder="Search">
+      </form>
+    </a></li>
+    <li class="nav-item"><a class="nav-link d-none d-lg-block" href="#">
+      <button type="button" class="btn btn-secondary">
+        <i class="fa fa-cart-arrow-down"></i>
+      </button>
+    </a></li>
+    <!-- <li class="nav-item"><a class="nav-link d-none d-lg-block" href="#">
+      <button type="button" class="btn btn-secondary">
+        <i class="fa fa-user hidden-xs"></i>
+      </button>
+    </a></li> -->
+    <!-- <li class="nav-item"><a class="nav-link" href="#">
+      <button type="button" class="btn btn-secondary">
+        <i class="fa fa-envelope hidden-xs"></i>
+      </button>
+    </a></li> -->
+    <li class="nav-item"><a class="nav-link" href="#">
+      <button type="button" class="btn btn-success mx-1 reg_btn" style="padding: 2px 20px 2px 20px;" data-toggle="modal" data-target="#registration">
+        <span><i class="fas fa-user-friends p-1"></i></span>
+        <span class="">ورود و عضویت</span>
+    </button>
+    </a></li>
+    
+  
+  </ul>
+  
+    </div> <!-- navbar-collapse.// -->
+  
+  </nav>
+             <!-- modal________________________________________ -->
+             <div class="modal fade" id="registration">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">عضویت در سایت</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                      <form action="/action_page.php" class="needs-validation" novalidate>
+                          <div class="form-group">
+                              <label for="uname">نام کاربری:</label>
+                              <input type="text" class="form-control" id="uname" placeholder="نام کاربری خود را وارد کنید" name="uname" required>
+                              <div class="valid-feedback">معتبر.</div>
+                              <div class="invalid-feedback">لطفا این قسمت را پر کنید.</div>
+                          </div>
+                          <div class="form-group">
+                              <label for="email">ایمیل:</label>
+                              <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید" id="email">
+                              <div class="valid-feedback">معتبر.</div>
+                              <div class="invalid-feedback">لطفا این قسمت را با ایمیل معتبر پر کنید.</div>
+                            </div>
+                          <div class="form-group">
+                              <label for="pwd">رمز عبور:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="رمز عبور خود را وادر کنید" name="pswd" required>
+                              <div class="valid-feedback">معتبر.</div>
+                              <div class="invalid-feedback">لطفا این قسمت را پر کنید.</div>
+                          </div>
+                          <div class="form-group form-check">
+                              <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember" required> با قوانین سایت موافقم.
+                              <div class="valid-feedback">معتبر.</div>
+                              <div class="invalid-feedback">برای ادامه این کادر انتخاب را علامت بزنید.</div>
+                              </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">ارسال</button>
+                          </form>
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+  
+  
+  </div><!-- container //  -->
+
+    <div class="" >
+        <div class="position-relative">
+          <div class="position-absolute">
+            
+          </div>
+            <img src="images/banner2.jpg" class="w-100" style="height: 600px;" alt="">
+            <div class="col position-absolute p-5" id="banner_box">
+              <div style="margin: 20px;">
+                <h1>
+                  <b>دوره شما برای موفقیت</b>
+              </h1>
+              <br>
+  
+              <h6>
+                <b>با دوره ها ، گواهینامه ها و مدارک به صورت آنلاین از دانشگاه ها <br> و شرکت های کلاس جهانی مهارت ایجاد کنید</b>
+              </h6>
+              </div>
+                <div>
+                    <div class="flexbox">
+                        <div class="search">
+                          <h1>آموزش آنلاین ویدیویی<br> مهارت برای اشتغال</h1>
+                          <h3>آموزش‌های کاربردی از حرفه‌ای‌ها</h3>
+                          <div>
+                            <input type="text" placeholder="چه چیزی می‌خواهید یاد بگیرید؟" required>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid">
+    <section>
+        <div style="direction: rtl;">
+            <div class="row p-4 m-4">
+                <div class="col-md-12 ">
+                    <h2><b>بهترین دوره‌های آموزشی</b></h2>
+                </div>
+            </div>
+            <div class="row p-4 ">
+              <div class="col-lg-4 mt-4">
+                <div class="card shadow my-rounded position-relative overflow-hidden">
+                    <div class="card-body text-center" style="z-index: 1;">
+                        <div class="row">
+                            <div class="col-md-2 pt-2" style="color: #28a745">
+                              <i class="fas fa-graduation-cap"  style="font-size: 50px;"></i>                                 </div>
+                              <div class="col-md-10 text-left">
+                                <h5 style="color: rgb(0, 145, 0);">آرشیو همایش‌ها و رویدادها</h5>
+                                <div class="mt-2 text-md-left text-muted">
+                                    <p>دسترسی رایگان به همایش‌ها و رویدادهای علمی و آموزشی برگزار شده در موضوعات متنوع و کاربردی
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="bf_fa">
+                      <i class="fab fa-wpforms"></i>
+                  </div>
+                </div>
+            </div>
+                <div class="col-lg-4 mt-4 ">
+                    <div class="card shadow my-rounded position-relative overflow-hidden">
+                        <div class="card-body text-center" style="z-index: 1;">
+                            <div class="row">
+                                <div class="col-md-2 pt-2" style="color: #28a745">
+                                  <i class="fas fa-microscope" style="font-size: 50px;"></i>                                    </div>
+                                  <div class="col-md-10 text-left">
+                                    <h5 style="color: rgb(0, 145, 0);">آرشیو همایش‌ها و رویدادها</h5>
+                                    <div class="mt-2 text-md-left text-muted">
+                                        <p>دسترسی رایگان به همایش‌ها و رویدادهای علمی و آموزشی برگزار شده در موضوعات متنوع و کاربردی
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bf_fa">
+                          <i class="fab fa-raspberry-pi"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 ">
+                  <div class="card shadow my-rounded position-relative overflow-hidden">
+                      <div class="card-body text-center" style="z-index: 1;">
+                          <div class="row">
+                              <div class="col-md-2 pt-2" style="color: #28a745">
+                                <i class="fas fa-user-graduate" style="font-size: 50px;"></i>
+                          </div>
+                                <div class="col-md-10 text-left">
+                                  <h5 style="color: rgb(0, 145, 0);">آرشیو همایش‌ها و رویدادها</h5>
+                                  <div class="mt-2 text-md-left text-muted">
+                                      <p>دسترسی رایگان به همایش‌ها و رویدادهای علمی و آموزشی برگزار شده در موضوعات متنوع و کاربردی
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+                      <div class="bf_fa">
+                        <i class="fab fa-ioxhost"></i>
+                    </div>
+                  </div>
+              </div>
+    
+            </div>
+    
+        </div>
+    </section>
+
+    <section>
+        <div class="my-5">
+            <div class="position-relative" id="book_banner">
+                <img src="images/banner.jpg" class="w-100" style="height: 500px;" alt="" >
+                <div class="col position-absolute p-5" style="top:0px;">
+
+<div class='left d-none'>
+</div>
+<div class='right'>
+  <div class='app'>
+    <div class='app_inner'>
+      <input checked='' id='tab-1' name='buttons' type='radio'>
+      <label for='tab-1'>
+        <div class='app_inner__tab'>
+          <h2>
+            <i class='icon ion-android-alarm-clock'></i>
+            مجموعه آموزش برنامه‌‌ نویسی
+          </h2>
+          <div class='tab_left'>
+            <i class='big icon fas fa-user-graduate'></i>
+            <div class='tab_left__image'>
+              <i class="fas fa-user-graduate"></i>
+            </div>
+          </div>
+          <div class='tab_right'>
+            <h3>۱۳۹  آموزش</h3>
+            <h4>۹۴۸ ساعت</h4>
+            <p>۲۴۶,۵۹۳ دانشجو</p>
+            <button>اطلاعات بیشتر</button>
+          </div>
+        </div>
+      </label>
+      <input false='' id='tab-2' name='buttons' type='radio'>
+      <label for='tab-2'>
+        <div class='app_inner__tab'>
+          <h2>
+            <i class='icon ion-android-alarm-clock'></i>
+            مجموعه آموزش طراحی سایت
+          </h2>
+          <div class='tab_left'>
+            <i class='big fas fa-book-reader'></i>
+            <div class='tab_left__image'>
+              <i class="fas fa-book-reader"></i>
+            </div>
+          </div>
+          <div class='tab_right'>
+            <h3>۵۵  آموزش</h3>
+            <h4>۳۱۹ ساعت</h4>
+            <p>۱۰۶,۳۸۲ دانشجو</p>
+            <button>اطلاعات بیشتر</button>
+          </div>
+        </div>
+      </label>
+      <input false='' id='tab-3' name='buttons' type='radio'>
+      <label for='tab-3'>
+        <div class='app_inner__tab'>
+          <h2>
+            <i class='icon ion-android-alarm-clock'></i>
+            مجموعه آموزش‌ مهندسی الکترونیک
+          </h2>
+          <div class='tab_left'>
+            <i class='big fas fa-chalkboard'></i>
+            <div class='tab_left__image'>
+              <i class="fas fa-chalkboard"></i>
+            </div>
+          </div>
+          <div class='tab_right'>
+            <h3>۷۵  آموزش</h3>
+            <h4>۶۲۷ ساعت</h4>
+            <p>۸۳,۹۳۴ دانشجو</p>
+            <button>اطلاعات بیشتر</button>
+          </div>
+        </div>
+      </label>
+      <input false='' id='tab-4' name='buttons' type='radio'>
+      <label for='tab-4'>
+        <div class='app_inner__tab'>
+          <h2>
+            <i class='icon ion-android-alarm-clock'></i>
+            مجموعه آموزش نرم افزار های Adobe
+          </h2>
+          <div class='tab_left'>
+            <i class='big fas fa-award'></i>
+            <div class='tab_left__image'>
+              <i class="fas fa-award"></i>
+            </div>
+          </div>
+          <div class='tab_right'>
+            <h3>۴۶  آموزش</h3>
+            <h4>۹۴۴ ساعت</h4>
+            <p>۱۰۳,۰۳۲ دانشجو</p>
+            <button>اطلاعات بیشتر</button>
+          </div>
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div style="width: 100%; height: 400px;" class="div_over_lay">
+          <div class="p-5" >
+            <h4 class="text-light"><b></b>بهترین های برنامه نویسی و درصد رضایت</b></h4> <br>
+            <!-- partial:index.partial.html -->
+            <div class="my-progress">
+              <div class="my-progress__item border">
+                <div class="my-progress__bar my-progress__bar_color_violet my-progress__bar_fill_70">
+                  رابط کاربری 70%
+                </div>
+              </div>
+              <div class="my-progress__item border">
+                <div class="my-progress__bar my-progress__bar_color_blue my-progress__bar_fill_85">
+                  طراحی وبسایت 85%
+                </div>
+              </div>
+              <div class="my-progress__item border">
+                <div class="my-progress__bar my-progress__bar_color_red my-progress__bar_fill_65">
+                  وردپرس 65%
+                </div>
+              </div>
+              <div class="my-progress__item border">
+                <div class="my-progress__bar my-progress__bar_color_green my-progress__bar_fill_90">
+                  سئو 90%
+                </div>
+              </div>
+              <div class="my-progress__item border">
+                <div class="my-progress__bar my-progress__bar_color_orange my-progress__bar_fill_85">
+                  طراحی اپلیکیشن 85%
+                </div>
+              </div>
+            </div>
+            <!-- partial -->
+          </div>
+        </div>
+    </section>
+</div>
+
+
+    <section>
+      
+      <div class="row m-5 py-5 text-left" style="direction: rtl;">
+        <h2><b>دوره های آموزشی معتبر در ایران</b></h2>
+      </div>
+      <div class="container card_collection position-relative">
+      
+        <div class="row mb-5">
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp">طراحی فرش با فتوشاپ </h2>
+              <p>آموزش در زمینه طراحی فرش با فتوشاپ (Photoshop)</p>
+              <div class="cta-container transition"><a href="farsh.html" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-1"></div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp"> مدل سازی انفجار با نرم افزار</h2>
+              <p>یکی از نرم‌افزارهای المان محدود کارآمد در شبیه‌سازی مسائل با نرخ کرنش بالا، نرم‌افزاراست.</p>
+              <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-2"></div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp">آموزش کسب موفقیت </h2>
+              <p>آشنایی با نحوه عملکرد مغز و شناخت نظام فکری، ساختار ضمیر خودآگاه و ناخودآگاه، اصل باورسازی و ایجاد باورهای سازنده</p>
+              <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-3"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container card_collection position-relative">
+        <div class="row mb-5">
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp">آموزش اوپن سوزه لینوکس</h2>
+              <p>در این آموزش مراحل اولیه‌ی نصب و پیکربندی مقدماتی و آشنایی با این سیستم عامل را در این آموزش بررسی می‌کنیم.</p>
+              <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-4"></div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp">آموزش انبارداری با اکسل </h2>
+              <p>قدم‌های اساسی و استواری در همین مسیر است که با نرم‌افزار اکسل ۲۰۱۹ برای کاربران سطح پایه .</p>
+              <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-5"></div>
+            </div>
+          </div>
+          <div class="col-lg-4" style="height: 450px;">
+            <div class="card transition">
+              <h2 class="transition bg-tp">آموزش سلول خورشیدی </h2>
+              <p>سلول‌ خورشیدی پروسکایتی یکی از مهم‌ ترین انواع سلول ‌های خورشیدی است که بازده  آن در طول یک دهه اخیر، سریعا افزایش یافته‌ است.</p>
+              <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+              <div class="card_circle transition ex-6"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- <section>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card transition">
+            <h2 class="transition bg-tp">Awesome Headline</h2>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <div class="cta-container transition"><a href="#" class="cta">فراخوانی برای اقدام</a></div>
+            <div class="card_circle transition"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+<!-- 
+    <section>    
+      <div class="row p-md-4 m-5">
+          <div class="col-md-12 ">
+              <h2><b>آخرین دوره های یادگیری </b></h2>
+          </div>
+      </div>
+      <div class="container my-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/slide1.jpg" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none d-md-block rounded" style="background-color:#181919b5;">
+                <h5><b>آموزش رایگان شبکه‌های عصبی و یادگیری عمیق</b></h5>
+                <p class="text-light">
+                  برگزار کننده:
+                  دانشگاه فردوسی مشهد
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/slide2.jpg" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none d-md-block rounded" style="background-color:#181919b5;">
+                <h5><b>آموزش رایگان آشنایی با بازارهای ارز دیجیتال</b></h5>
+                <p class="text-light">
+                  برگزار کننده:
+                  فیندو
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/slide3.jpg" class="d-block w-100 " alt="...">
+              <div class="carousel-caption d-none d-md-block rounded" style="background-color:#181919b5;">
+                <h5><b>آموزش رایگان رمزنگاری</b></h5>
+                <p class="text-light">
+                  برگزار کننده:
+                  نوشیروانی بابل
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <section>
+      <div class="rs-impression">
+        <div class="container">
+          <div class="content-part text-center">
+            <div class="logo-part">
+              <img src="images/envato-elite.png" alt="">
+            </div>
+            <h3 class="title">همین حالا به ما بپیوندید</h3>
+            <p class="sub-title">آموزش مجازی خلاق ارائه دهنده بیشترین دوره های آموزشی رایگان</p>
+            <div class="conter-area">
+              <h4 class="count-title">مورد اعتماد</h4>
+              <div class="rs-count plus" id="counter">5000</div>
+              <h4 class="count-title">دانشجوی مجازی</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact_bg">
+      <div class="contact-form" style="background-color: transparent; margin-top: 0;">
+        <div class="contact-image">
+            <img src="images/envato-elite.png" alt="rocket_contact"/>
+        </div>
+        <form method="post">
+            <h3>نظرات خود را برای ما ارسال کنید</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="نام شما*" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="ایمیل شما*" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="شماره تماس شما*" value="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="پیام شما*" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btnContact" value="ارسال پیام" />
+                  </div>
+                </div>
+            </div>
+        </form>
+</div>
+    </section>
+    <section>
+      <footer class="kilimanjaro_area" style="direction: rtl;">
+        <!-- Top Footer Area Start -->
+        <div class="foo_top_header_one section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                          <img class="w-50" src="images/envato-elite.png" alt="" style="margin: auto; display: block;">
+                            <h5>درباره ما</h5>
+                            <p> ما اعتقاد داریم که هیچ کس نباید به خاطر هیچ چیز از لذت یاد گرفتن محروم شود. نباید سن و سال، مکان، موقعیت یا امکانات مالی فرد، وی را از یادگیری و موفقیت باز دارد</p>
+                        </div>
+                        <div class="kilimanjaro_part m-top-15">
+                            <h5>پیوندهای اجتماعی</h5>
+                            <ul class="kilimanjaro_social_links">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> فیسبوک</a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> توئیتر</a></li>
+                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> پینترست</a></li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> یوتیوب</a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> لینکدین</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>ویجت برچسب ها</h5>
+                            <ul class=" kilimanjaro_widget">
+                                <li><a href="#">درجه یک</a></li>
+                                <li><a href="#">وبلاگ</a></li>
+                                <li><a href="#">خلاق</a></li>
+                                <li><a href="#">یک صفحه</a></li>
+                                <li><a href="#">چند منظوره</a></li>
+                                <li><a href="#">حداقل</a></li>
+                                <li><a href="#">کلاسیک</a></li>
+                                <li><a href="#">پزشکی</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="kilimanjaro_part m-top-15">
+                            <h5>پیوندهای مهم</h5>
+                            <ul class="kilimanjaro_links">
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>شرایط و ضوابط</a></li>
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>درباره مجوزها</a></li>
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>راهنما و پشتیبانی</a></li>
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>مشاغل</a></li>
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>حفظ حریم خصوصی</a></li>
+                                <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i>انجمن</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>آخرین خبرها</h5>
+                            <div class="kilimanjaro_blog_area">
+                                <div class="kilimanjaro_thumb">
+								<img class="img-fluid" src="images/team1.jpg" alt="">
+
+                                </div>
+                                <a href="#">دوره جدید پایتون با جادی</a>
+                                <p class="kilimanjaro_date">دوشنبه 28 خرداد 1400</p>
+                                <p>این ترم پایتون را با برنامه نویس خندان تجربه کنید</p>
+                            </div>
+                            <div class="kilimanjaro_blog_area">
+                                <div class="kilimanjaro_thumb">
+								<img class="img-fluid" src="images/team2.jpg" alt="">
+                                </div>
+                                <a href="#">دوره جدید سی پلاس پلاس </a>
+                                <p class="kilimanjaro_date">1400 شنبه 5 فروردین</p>
+                                <p>دوره سی پلاس پلاس پیشرفته با مهندس شیر افکن</p>
+                            </div>
+                            <div class="kilimanjaro_blog_area">
+                                <div class="kilimanjaro_thumb">
+								<img class="img-fluid" src="images/team3.jpg" alt="">
+                                </div>
+                                <a href="#">دوره مدیریت بلاکچین</a>
+                                <p class="kilimanjaro_date">پنجشنبه 17 اسفند 99</p>
+                                <p>قویترین دوره مدیریت بلاکچین با استاندارد های 2020 با مهندس صادقی</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="kilimanjaro_part">
+                            <h5>تماس سریع</h5>
+                            <div class="kilimanjaro_single_contact_info">
+                                <h5>تلفن:</h5>
+                                <p>+255 789 54 50 40 <br> +2255 766 90 94 00</p>
+                            </div>
+                            <div class="kilimanjaro_single_contact_info">
+                                <h5>ایمیل:</h5>
+                                <p>abedinia313@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="kilimanjaro_part">
+                            <h5>جدیدترین آثار</h5>
+                            <div class="kilimanjaro_works">
+                                <a class="kilimanjaro_works_img" href="img/gallery/1.jpg"><img src="images/blog1.jpg" alt=""></a>
+                                <a class="kilimanjaro_works_img" href="img/gallery/4.jpg"><img src="images/blog2.jpg" alt=""></a>
+                                <a class="kilimanjaro_works_img" href="img/gallery/5.jpg"><img src="images/blog3.jpg" alt=""></a>
+                                <a class="kilimanjaro_works_img" href="img/gallery/7.jpg"><img src="images/blog1.jpg" alt=""></a>
+                                <a class="kilimanjaro_works_img" href="img/gallery/10.jpg"><img src="images/blog2.jpg" alt=""></a>
+                                <a class="kilimanjaro_works_img" href="img/gallery/11.jpg"><img src="images/blog3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom Area Start -->
+        <div class=" kilimanjaro_bottom_header_one section_padding_50 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>© کلیه حقوق محفوظ است توسط  <a href="#">amirr512<i class="fa fa-love"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+
+
+
+
+
+    
+<!-- </div> -->
+
+    
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/my_js.js"></script>
+</body>
+</html>
